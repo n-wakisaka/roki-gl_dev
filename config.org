@@ -1,0 +1,11 @@
+PREFIX=$(HOME)/usr
+PROJNAME=roki-gl
+VERSION=0.0.1
+
+DEPENDENCY="zeda=1.1.1;liw=1.1.1;zx11=1.0.1;zm=1.1.1;zeo=1.1.2;roki=1.1.1"
+
+# GLX
+CONFIG_USE_GLX=y
+
+# GLUT
+CONFIG_USE_GLUT=y
